@@ -92,7 +92,7 @@ export default function App() {
             </button>
           </div>
           <div>
-            {response.analysisResults.insights && (
+            {response?.analysisResults?.insights && (
               <div className="mt-4 bg-white p-6 rounded-lg shadow-md">
                 <h2 className="text-xl font-semibold mb-4 text-purple-700">Analysis Results:</h2>
                 <pre className="whitespace-pre-wrap break-words text-sm bg-gray-100 p-4 rounded">
